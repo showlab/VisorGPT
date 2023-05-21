@@ -1,2 +1,2 @@
-# <img src="VisorGPT.png" width="100"> VisorGPT
+# <img src="VisorGPT.png" width="50"> VisorGPT
 Learning Visual Prior via Generative Pre-Training
