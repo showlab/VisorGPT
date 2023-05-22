@@ -4,3 +4,9 @@
 
 # Learning Visual Prior via Generative Pre-Training [[Arxiv]()]
 
+## Demo
+
+## Updates
+- Gradio demo is available.
+
+## Quick Start
