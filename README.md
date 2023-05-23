@@ -5,7 +5,7 @@
 # Learning Visual Prior via Generative Pre-Training [[Arxiv]()]
 
 ## Video
-[![](https://i.ytimg.com/vi/iSEK3l2ZbIA/maxresdefault.jpg)](https://www.youtube.com/watch?v=iSEK3l2ZbIA "")
+[![](https://i.ytimg.com/vi/8FDoBfxSY8I/maxresdefault.jpg)](https://www.youtube.com/watch?v=8FDoBfxSY8I "")
 
 ## Updates
 - Gradio demo will be available.
