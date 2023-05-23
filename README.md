@@ -4,7 +4,7 @@
 
 # Learning Visual Prior via Generative Pre-Training [[Arxiv]()]
 
-## Demo
+## Video
 [![](https://i.ytimg.com/vi/iSEK3l2ZbIA/maxresdefault.jpg)](https://www.youtube.com/watch?v=iSEK3l2ZbIA "")
 
 ## Updates
