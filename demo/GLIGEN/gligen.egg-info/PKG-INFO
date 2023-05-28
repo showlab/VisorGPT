@@ -1,0 +1,5 @@
+Metadata-Version: 2.1
+Name: gligen
+Version: 1.0
+Provides-Extra: all
+Provides-Extra: dev

@@ -1,0 +1,1 @@
+from gligen.ldm.modules.losses.contperceptual import LPIPSWithDiscriminator
