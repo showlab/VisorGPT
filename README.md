@@ -34,7 +34,7 @@ pip3 install -v -e .
 cd ../demo/GLIGEN
 pip3 install -v -e .
 ```
-### Step 2 - Download pre-trained weights.
+### Step 2 - Download pre-trained weights
 Download [visorgpt](https://drive.google.com/file/d/1Pk4UPNKBMH-0uRLmK5COYTca7FUrN8XY/view?usp=share_link), [controlnet-pose2img](https://huggingface.co/lllyasviel/ControlNet-v1-1/blob/main/control_v11p_sd15_openpose.pth), [controlnet-sd](https://huggingface.co/runwayml/stable-diffusion-v1-5/blob/main/v1-5-pruned-emaonly.safetensors), [gligen-bbox2img](https://huggingface.co/gligen/gligen-generation-text-box/blob/main/diffusion_pytorch_model.bin), and put them as follow:
 ```
 ├── demo/
@@ -48,7 +48,7 @@ Download [visorgpt](https://drive.google.com/file/d/1Pk4UPNKBMH-0uRLmK5COYTca7FU
 |   |   |   ├── visorgpt_dagger_ta_tb.pt
 ```
 
-### Step 3 - Run demo.
+### Step 3 - Run demo
 ```
 CUDA_VISIBLE_DEVICES=0 python3 gradio_demo.py
 ```
