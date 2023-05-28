@@ -23,7 +23,7 @@ conda create -n visorgpt python=3.8
 # activate the new environment
 conda activate visorgpt
 
-#  prepare the basic environments
+# prepare the basic environments
 pip3 install -r requirements.txt
 
 # install controlnet and gligen
