@@ -4,6 +4,8 @@
 
 ## Learning Visual Prior via Generative Pre-Training [[Arxiv](http://arxiv.org/abs/2305.13777)] [[Demo]()] [[Video](https://www.youtube.com/watch?v=8FDoBfxSY8I)]
 
+<img src="demo.gif" width="1000">
+
 ## Updates
 - Gradio demo is available.
 - [Hugging Face demo will be available]().
