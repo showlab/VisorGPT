@@ -2,7 +2,7 @@
 <img src="visorgpt_title.png" width="400">
 </div>
 
-See our paper: [Learning Visual Prior via Generative Pre-Training](http://arxiv.org/abs/2305.13777)
+## Learning Visual Prior via Generative Pre-Training [[Arxiv](http://arxiv.org/abs/2305.13777)]
 <a src="https://img.shields.io/badge/%F0%9F%A4%97-Open%20in%20Spaces-blue" href="https://huggingface.co/spaces/microsoft/visual_chatgpt">
     <img src="https://img.shields.io/badge/%F0%9F%A4%97-Open%20in%20Spaces-blue" alt="Open in Spaces">
 </a>
