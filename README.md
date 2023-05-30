@@ -8,7 +8,7 @@
 
 ## Updates
 - Gradio demo is available.
-- [Hugging Face demo will be available]().
+- [Hugging Face demo is available](https://huggingface.co/spaces/szukevin/VISOR-GPT).
 
 ## Quick Start
 ### Step 1
