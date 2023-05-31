@@ -2,7 +2,7 @@
 <img src="visorgpt_title.png" width="400">
 </div>
 
-## Learning Visual Prior via Generative Pre-Training [[Arxiv](http://arxiv.org/abs/2305.13777)] [[Demo](https://huggingface.co/spaces/szukevin/VISOR-GPT)] [[Video](https://www.youtube.com/watch?v=8FDoBfxSY8I)] [[Project](https://sierkinhane.github.io/visor-gpt/)]
+## Learning Visual Prior via Generative Pre-Training [Arxiv](http://arxiv.org/abs/2305.13777) [Demo](https://huggingface.co/spaces/szukevin/VISOR-GPT) [Video](https://www.youtube.com/watch?v=8FDoBfxSY8I) [Project](https://sierkinhane.github.io/visor-gpt/)
 
 <img src="demo.gif" width="1000">
 
