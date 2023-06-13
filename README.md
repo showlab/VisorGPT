@@ -56,7 +56,7 @@ CUDA_VISIBLE_DEVICES=0 python3 gradio_demo.py
 ```
 
 ## Training
-Download the training data from [here](https://drive.google.com/file/d/1VVw7zypNtkiMwJa3exGVZ31XnZCjYU6f/view?usp=sharing) and put it into the directory of `train`. The training requires 8 V100(32GB).
+Download the training data from [here](https://drive.google.com/file/d/1VVw7zypNtkiMwJa3exGVZ31XnZCjYU6f/view?usp=sharing) and put it into the directory of `train/`. The training requires 8 V100(32GB).
 ```
 # change directory
 cd train
