@@ -10,7 +10,7 @@
 - [2023/05/23] Paper is available.
 - [2023/05/28] Gradio demo is available.
 - [2023/05/30] [Hugging Face demo is available](https://huggingface.co/spaces/szukevin/VISOR-GPT).
-- [2023/6/13] Training code and data are available.
+- [2023/06/13] Training code and data are available.
 
 ## Quick Start
 ### Step 1
