@@ -1,1 +1,1 @@
-key point; Multiple instances; 5; 14; medium;
+key point; multiple instances; medium; 4; 18;
