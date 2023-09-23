@@ -1,6 +1,8 @@
-<div align=center>
-<img src="visorgpt_title.png" width="400">
-</div>
+[//]: # (<div align=center>)
+
+[//]: # (<img src="visorgpt_title.png" width="400">)
+
+[//]: # (</div>)
 
 <div align="center">
 <h1>VisorGPT 🎨 (NeurIPS 2023)</h1>
