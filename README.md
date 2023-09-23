@@ -2,7 +2,17 @@
 <img src="visorgpt_title.png" width="400">
 </div>
 
-## Learning Visual Prior via Generative Pre-Training [[Arxiv](http://arxiv.org/abs/2305.13777) [Demo](https://huggingface.co/spaces/szukevin/VISOR-GPT) [Video](https://www.youtube.com/watch?v=8FDoBfxSY8I) [Project](https://sierkinhane.github.io/visor-gpt/)]
+<div align="center">
+<h1>VisorGPT 🎨 (NeurIPS 2023)</h1>
+<h3>Learning Visual Prior via Generative Pre-Training</h3>
+
+[Jinheng Xie](https://sierkinhane.github.io/)<sup>1</sup>&nbsp; Kai Ye<sup>2</sup>&nbsp; Yudong Li<sup>2</sup>&nbsp; Yuexiang Li<sup>3</sup>&nbsp; Yefeng Zheng<sup>3</sup> Linlin Shen<sup>2</sup>&nbsp; [Mike Zheng Shou](https://scholar.google.com/citations?hl=zh-CN&user=h1-3lSoAAAAJ&view_op=list_works&sortby=pubdate)<sup>1</sup> 
+
+<sup>1</sup> National University of Singapore&nbsp; <sup>2</sup> Shenzhen University&nbsp; <sup>3</sup> Jarvis Research Center, Tencent YouTu Lab
+
+[![arXiv](https://img.shields.io/badge/arXiv-<2305.13777>-<COLOR>.svg)](http://arxiv.org/abs/2305.13777) [![demo](https://img.shields.io/badge/demo-<huggingface>-<COLOR>.svg)](https://huggingface.co/spaces/szukevin/VISOR-GPT) [![video](https://img.shields.io/badge/video-<youtube>-<COLOR>.svg)](https://www.youtube.com/watch?v=8FDoBfxSY8I) [![webpage](https://img.shields.io/badge/webpage-<github.io>-<COLOR>.svg)](https://sierkinhane.github.io/visor-gpt/)
+
+</div>
 
 <img src="demo.gif" width="1000">
 
@@ -11,6 +21,7 @@
 - [2023/05/28] Gradio demo is available.
 - [2023/05/30] [Hugging Face demo is available](https://huggingface.co/spaces/szukevin/VISOR-GPT).
 - [2023/06/13] Training code and data are available.
+- [2023/09/22] VisorGPT is accepted by **NeurIPS 2023**.
 
 ## Quick Start
 ### Step 1
