@@ -133,6 +133,7 @@ CUDA_VISIBLE_DEVICES=0 python3 scripts/generate_lm_multiple.py --load_model_path
 ```
 ## Visualization
 ```
+cd ../
 python utils/seq2coord.py --file_path path/to/your/inference/txt --visualize
 ```
 The visualization results will be saved at `./debug`
