@@ -131,6 +131,11 @@ CUDA_VISIBLE_DEVICES=0 python3 scripts/generate_lm_multiple.py --load_model_path
                                --test_path beginning.txt --prediction_path generated_sentence.txt \
                                --config_path models/gpt2/config.json --seq_length 512
 ```
+## Visualization
+```
+python utils/seq2coord.py --file_path paht/to/your/inference/txt --visualize
+```
+The visualization results will be saved at `./debug`
 
 If you are using our code, please consider citing our paper.
 
