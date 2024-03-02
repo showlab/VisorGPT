@@ -150,7 +150,6 @@ def visualization(location_list, classname_list, type_list, save_dir='debug/', s
     print('visualizing ...')
     for b, (loc, classnames, type) in tqdm(enumerate(zip(location_list, classname_list, type_list))):
         canvas = np.zeros((512, 512, 3), dtype=np.uint8) + 50
-
         if len(loc) != len(classnames):
             continue
         
@@ -305,23 +304,27 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument('--file_path', type=str, required=True)
     parser.add_argument('--save_dir', type=str, default='debug')
-    parser.add_argument('--visualize', type=bool, default=False)
+    parser.add_argument('--visualize', action='store_true')
+    parser.add_argument('--ctn', action='store_true')
+
     args = parser.parse_args()
 
-    location_list, classname_list, type_list, valid_sequences = to_coordinate(args.file_path)
+    location_list, classname_list, type_list, valid_sequences = to_coordinate(args.file_path, args.ctn)
 
     if not os.path.exists(args.save_dir):
         os.makedirs(args.save_dir)
 
     # visualization
     if args.visualize:
-        visualization(location_list, classname_list, type_list, args.save_dir)
+        visualization(location_list, classname_list, type_list, args.save_dir, args.visualize)
 
     # to json data
     rets = to_json(location_list, classname_list, type_list, valid_sequences)
 
     for ret, flag in zip(rets, ['box', 'mask', 'keypoint']):
         save_path = args.file_path.split('/')[-1].split('.')[0] + f'_{flag}.json'
+        if not os.path.exists('files/'):
+            os.makedirs('files/')
         with open('files/' + save_path, 'w') as file:
             json.dump(ret, file, indent=2)
 
