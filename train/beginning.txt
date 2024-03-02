@@ -1,1 +1,6 @@
-key point; multiple instances; medium; 4; 18;
+key point; multiple instances; 5; 14; medium;
+key point; multiple instances; 5; 14; medium;
+key point; multiple instances; 5; 14; medium;
+box; multiple instances; 5; 0;
+box; multiple instances; 5; 0;
+box; multiple instances; 5; 0;
