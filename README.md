@@ -81,9 +81,14 @@ CUDA_VISIBLE_DEVICES=0 python3 gradio_demo.py
 2. Process them into text corpora,
 e.g.,
 ```
+# box type
 python3 preprocess_coord.py --input_path path/to/coco_train.json --data_type box --output_dir txt_train
+# keypoint type
+python3 preprocess_coord.py --input_path path/to/cocokeypoints_train.json --data_type keypoint --output_dir txt_train
+# mask type
+python3 preprocess_coord.py --input_path path/to/coco_train.json --data_type mask --output_dir txt_train
 ```
-3. If you have processed several .txt files, you can merge them together, e.g.,
+3. If you have processed several .txt files, you can merge them into one `.txt` file, e.g.,
 ```
 python3 utiles/merge_files.py --file_dir txt_train --output_file_path train.txt
 ```
@@ -106,7 +111,7 @@ deepspeed pretrain.py --deepspeed --deepspeed_config models/deepspeed_config.jso
                     --total_steps 200000 --save_checkpoint_steps 5000 --report_steps 100 \
                     --learning_rate 5e-5 --batch_size 16
 ```
-Or you can directly download the tokenized data from [here](https://drive.google.com/file/d/1VVw7zypNtkiMwJa3exGVZ31XnZCjYU6f/view?usp=sharing) and put it into the directory of `train/`. 
+Or you can directly download the tokenized data from [here](https://drive.google.com/file/d/1VVw7zypNtkiMwJa3exGVZ31XnZCjYU6f/view?usp=sharing) (around 340K sequences)  and put it into the directory of `train/`. 
 ```
 deepspeed pretrain.py --deepspeed --deepspeed_config models/deepspeed_config.json \
                     --dataset_path visorgpt_dagger_train_seq.pt \
