@@ -1,3 +1,4 @@
+deepspeed==0.7
 absl-py==1.4.0
 addict==2.4.0
 aiofiles==23.1.0
