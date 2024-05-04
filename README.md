@@ -77,7 +77,7 @@ CUDA_VISIBLE_DEVICES=0 python3 gradio_demo.py
 ```
 
 ## Training
-1. Download the preprocessed json files at [here](https://drive.google.com/drive/folders/1PL3RMPLUT3bFB-RHtMBzVkOLbQu_rDJF?usp=sharing).
+1. Download the preprocessed json files from [here](https://drive.google.com/drive/folders/1PL3RMPLUT3bFB-RHtMBzVkOLbQu_rDJF?usp=sharing).
 2. Process them into text corpora,
 e.g.,
 ```
